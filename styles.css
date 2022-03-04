@@ -1,0 +1,70 @@
+h1 {
+font-style: oblique;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 50px;
+text-align: center;
+margin-bottom: 90px;
+}
+#chicken {
+    font-style: italic;
+    background-color: brown;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    float: left;
+    margin-top: 18px;
+    margin-right: -100px;
+    position: relative;
+    top: -2px;
+}
+#beef {
+    font-style: italic;
+    text-align-last: border;
+    background-color: coral;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    float: left;
+    margin-top: -14px;
+    margin-right: -100px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+ #shushi {
+    font-style: italic;
+    font-size: x-large;
+    background-color: rebeccapurple;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    float: left; 
+    margin-top: -14px;
+    margin-right: -100px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+body {
+    background-color: whitesmoke;
+    margin-left: 75px;
+}
+p {
+    background-color: gray;
+    top: -10px;
+    right: 0px;
+    border: 2px solid black;
+    height: 100px;
+    font-family: cursive;
+    float: left;
+    margin-right: 60px
+}
+@media (min-width: 992px) {
+    p {
+        width: 27%;
+        height: fit-content;
+    }
+}
